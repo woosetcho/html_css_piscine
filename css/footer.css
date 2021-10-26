@@ -1,0 +1,8 @@
+.underline {
+  text-decoration: underline;
+}
+
+.layout__footer--text {
+  margin: 22px;
+  text-align: center;
+}
