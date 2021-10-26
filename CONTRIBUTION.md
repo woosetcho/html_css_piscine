@@ -1,4 +1,4 @@
-# Coding standard
+# Coding Standard
 
 ## HTML Norm
 * 모든 파일은 [W3 validator](https://validator.w3.org/)를 통과하여야 합니다.

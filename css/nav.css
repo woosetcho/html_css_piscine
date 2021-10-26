@@ -1,9 +1,38 @@
+/* SECTION : Import Variables */
+
+@import "variables.css";
+
+/* SECTION : Mertial Icons */
+
+.material-icons.md-nav-icon {
+  color: var(--nav_icon_color);
+  font-size: 25px;
+}
+
+.material-icons.md-nav-icon:hover {
+  color: var(--nav_icon_hover);
+}
+
+/* SECTION : nav bar layout */
+
 .layout__nav {
-  background: #2e313b;
+  background: var(--nav_color);
 }
 
 .layout__nav--logo {
   width: 42.72px;
   height: 30px;
   margin: 15px 18.64px;
+}
+
+.layout__nav--items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+}
+
+.layout__nav__items--icon {
+  margin: 17.5px 0px;
 }
