@@ -1,5 +1,7 @@
 :root {
   --nav_color: #2e313b;
+  --nav_icon_color: #5e6373;
+  --nav_icon_hover: #DBDADD
   --nav_font_color: #585d6c;
   --sub_nav_color: #24262e;
   --sub_nav_font_color: #686e72;
