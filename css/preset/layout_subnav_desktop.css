@@ -1,0 +1,22 @@
+body {
+  height: 100vh;
+}
+
+.layout {
+  height: inherit;
+  display: grid;
+  grid-template-columns: 80px 220px 1fr;
+  grid-template-rows: 60px 1fr 60px;
+}
+
+.layout__nav {
+  grid-row: 1/4;
+}
+
+.layout__subnav {
+  grid-row: 2/4;
+}
+
+.layout__header {
+  grid-column: 2/4;
+}
