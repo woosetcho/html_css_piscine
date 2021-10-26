@@ -9,14 +9,14 @@
   font-size: 25px;
 }
 
-.material-icons.md-nav-hover {
+.material-icons.md-nav-icon:hover {
   color: var(--nav_icon_hover);
 }
 
 /* SECTION : nav bar layout */
 
 .layout__nav {
-  background: #2e313b;
+  background: var(--nav_color);
 }
 
 .layout__nav--logo {
