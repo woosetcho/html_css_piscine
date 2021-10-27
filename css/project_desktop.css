@@ -15,3 +15,75 @@
 *:not(.material-icons) {
   font-family: "Source Sans Pro";
 }
+
+.layout__content *:not(.content__head) {
+  font-family: "NanumSquare";
+  color: var(--font_dark);
+}
+
+/* SECTION - CONTENT SIZES */
+
+.content__head,
+.content__subhead,
+.content__subhead-two,
+.content__subhead-three,
+.content__welcome,
+.content__para {
+  line-height: 1.3em;
+}
+
+.content__subhead {
+  padding: 30px 0 10px;
+}
+
+.content__subhead-two,
+.content__subhead-three {
+  padding: 10px 0;
+}
+
+.content__logo {
+  width: 320px;
+  margin: 50px;
+}
+
+.content__para {
+  padding: 10px 0;
+}
+
+.content__list {
+  padding: 10px 30px;
+  list-style: unset;
+  line-height: 1.5em;
+}
+
+.content__list--sub-list {
+  padding: 10px 30px;
+  list-style: circle;
+  line-height: 1.5em;
+}
+
+.content__code {
+  display: flex;
+  flex-direction: column;
+  padding: 30px 100px 30px 30px;
+  margin: 10px 8% 10px 0;
+  background: var(--code_block);
+}
+
+.code__line {
+  line-height: 1.5em;
+  color: var(--code_font) !important;
+}
+
+.horiz-divider {
+  height: 1px;
+  margin: 30px 0;
+  border: none;
+  background: #dfe1e4;
+}
+
+.content__img {
+  width: 50%;
+  min-width: 420px;
+  max-width: 600px;
+}
