@@ -27,12 +27,21 @@ body {
 }
 
 .fixed--title {
-  color: var(--white);
   padding-bottom: 15px;
+  color: var(--white);
 }
 
 .fixed--subject {
-  line-height: 34.82px;
+  margin-right: 112px;
   padding-left: 5px;
-  color: white;
+  line-height: 34.82px;
+  color: var(--sub_nav_font_color);
+}
+
+.fixed--subject:hover {
+  color: var(--sub_nav_font_hover);
+}
+
+.fixed--subject--active {
+  color: var(--sub_nav_font_hover);
 }
