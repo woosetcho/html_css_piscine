@@ -5,6 +5,16 @@
   font-size: 25px;
 }
 
+.material-icons-outlined.md-nav-hovered {
+  color: var(--nav_icon_hover);
+  font-size: 25px;
+}
+
+.material-icons.md-nav-hovered {
+  color: var(--nav_icon_hover);
+  font-size: 25px;
+}
+
 .material-icons-outlined.md-nav-icon {
   color: var(--nav_icon_color);
   font-size: 25px;
@@ -16,7 +26,6 @@
 
 .material-icons-outlined.md-nav-icon:hover {
   color: var(--nav_icon_hover);
-  font-size: 25px;
 }
 
 /* SECTION : nav bar layout */

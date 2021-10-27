@@ -1,3 +1,10 @@
 .layout__content {
   background: var(--main_footer_bg_color);
 }
+
+.content__frame {
+  background: white;
+  height: 100%;
+  margin: 40px;
+  padding: 20px 25px;
+}
