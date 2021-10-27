@@ -39,7 +39,7 @@
   justify-content: space-evenly;
 }
 
-.layout__nav__items--icon {
+.nav__items--icon {
   margin: 17.5px 0px;
 }
 
@@ -59,12 +59,8 @@
   display: none;
 }
 
-input:checked ~ label i {
-  color: var(--nav_icon_hover);
-  font-size: 25px;
-}
-
 #subnav:checked + #subnav--toggle {
+  color: var(--nav_icon_hover);
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
