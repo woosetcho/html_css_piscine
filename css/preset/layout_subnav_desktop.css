@@ -15,8 +15,24 @@ body {
 
 .layout__subnav {
   grid-row: 2/4;
+  background: var(--sub_nav_color);
 }
 
 .layout__header {
   grid-column: 2/4;
+}
+
+.subnav__fixed {
+  padding: 20px 30px;
+}
+
+.fixed--title {
+  color: var(--white);
+  padding-bottom: 15px;
+}
+
+.fixed--subject {
+  line-height: 34.82px;
+  padding-left: 5px;
+  color: white;
 }

@@ -5,6 +5,16 @@
   font-size: 25px;
 }
 
+.material-icons-outlined.md-nav-hovered {
+  color: var(--nav_icon_hover);
+  font-size: 25px;
+}
+
+.material-icons.md-nav-hovered {
+  color: var(--nav_icon_hover);
+  font-size: 25px;
+}
+
 .material-icons-outlined.md-nav-icon {
   color: var(--nav_icon_color);
   font-size: 25px;
@@ -16,7 +26,6 @@
 
 .material-icons-outlined.md-nav-icon:hover {
   color: var(--nav_icon_hover);
-  font-size: 25px;
 }
 
 /* SECTION : nav bar layout */
@@ -34,9 +43,9 @@
 .layout__nav--items {
   display: flex;
   flex-direction: column;
-  align-items: center;
   flex-wrap: nowrap;
   justify-content: space-evenly;
+  align-items: center;
 }
 
 .nav__items--icon {
@@ -44,13 +53,13 @@
 }
 
 #subnav--toggle {
-  width: 220px;
-  list-style: none;
   position: absolute;
   left: 80px;
   top: 60px;
-  background: var(--sub_nav_color);
+  width: 220px;
   height: calc(100% - 100px);
+  list-style: none;
+  background: var(--sub_nav_color);
   color: var(--sub_nav_font_color);
 }
 
@@ -60,18 +69,19 @@
 }
 
 #subnav:checked + #subnav--toggle {
-  color: var(--nav_icon_hover);
-  display: flex;
   flex-direction: column;
+  display: flex;
   padding: 20px 30px;
+  color: var(--nav_icon_hover);
 }
 
 .subnav--toggle__title {
-  color: var(--white);
   padding-bottom: 15px;
+  color: var(--white);
 }
 
 .subnav--toggle__subject {
-  line-height: 34.82px;
   padding-left: 5px;
+  line-height: 34.82px;
+  color: white;
 }
