@@ -15,3 +15,34 @@
 *:not(.material-icons) {
   font-family: "Source Sans Pro";
 }
+
+.layout__content *:not(.content__head) {
+  font-family: "NanumSquare";
+  color: var(--font_dark);
+}
+
+/* SECTION - HOME CONTENT */
+
+.content__head {
+  line-height: 1.3em;
+}
+
+.content__logo {
+  width: 320px;
+  margin: 50px;
+}
+
+.content__welcome {
+  line-height: 3em;
+}
+
+.content__para {
+  line-height: 1.3em;
+  padding: 10px 0;
+}
+
+.content__list {
+  padding: 10px 30px;
+  list-style: unset;
+  line-height: 1.5em;
+}
