@@ -1,9 +1,3 @@
-/* SECTION - RESET */
-
-@import "reset.css";
-
-/* SECTION - LAYOUT */
-
 body {
   height: 100vh;
 }
