@@ -45,12 +45,12 @@
 
 #subnav--toggle {
   width: 220px;
+  height: calc(100% - 100px);
   list-style: none;
   position: absolute;
   left: 80px;
   top: 60px;
   background: var(--sub_nav_color);
-  height: calc(100% - 100px);
   color: var(--sub_nav_font_color);
 }
 
@@ -74,4 +74,5 @@
 .subnav--toggle__subject {
   line-height: 34.82px;
   padding-left: 5px;
+  color: white;
 }
