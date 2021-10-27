@@ -5,7 +5,6 @@
   --nav_font_color: #585d6c;
   --sub_nav_color: #24262e;
   --sub_nav_font_color: #686e72;
-  --footer_color: #777777;
   --main_footer_bg_color: #fafafa;
   --home_font_color: #25252b;
   --font_dark: #2c2c34;
@@ -15,4 +14,6 @@
   --mint: #68b8ba;
   --fail_red: #be636e;
   --pass_green: #95c478;
+  --code_block: #ededeb;
+  --code_font: #d96762;
 }
