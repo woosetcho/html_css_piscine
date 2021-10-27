@@ -55,7 +55,7 @@ BEM은 기본적으로 id와 CSS tag가 아닌 class만 사용해야 합니다.
 
 ### Modifiers
 
-- Modifier은 block 또는 element의 속성입니다.
+- Modifier는 block 또는 element의 속성입니다.
   - 이 속성은 block 또는 element의 외관이나 상태를 변화시킵니다.
   - Class명은 “–“를 추가하여 modifier를 추가하여야 합니다.
 

@@ -3,9 +3,7 @@
 }
 
 .content__frame {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+  height: calc(100% - 40px);
   margin: 40px;
   padding: 20px 30px;
   background: white;
