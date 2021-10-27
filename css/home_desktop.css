@@ -13,5 +13,5 @@
 @import "components/footer.css";
 
 *:not(.material-icons) {
-  font-family: "PT Sans Narrow" !important;
+  font-family: "Source Sans Pro";
 }
