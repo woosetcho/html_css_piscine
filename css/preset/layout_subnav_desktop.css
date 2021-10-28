@@ -1,3 +1,11 @@
+/* SECTION : material icons */
+
+.material-icons.md-subnav-icon {
+  font-size: 16px;
+  transform: translateY(2px);
+}
+
+/* SECTION : Sub-nav layout */
 body {
   height: 100vh;
 }
@@ -32,7 +40,7 @@ body {
 }
 
 .fixed--subject {
-  margin-right: 112px;
+  margin-right: 92px;
   padding-left: 5px;
   line-height: 34.82px;
   color: var(--sub_nav_font_color);

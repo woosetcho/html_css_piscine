@@ -1,28 +1,20 @@
 /* SECTION : Mertial Icons */
 
-.material-icons.md-nav-icon {
-  color: var(--nav_icon_color);
-  font-size: 25px;
-}
-
+.material-icons.md-nav-icon,
 .material-icons-outlined.md-nav-icon {
   color: var(--nav_icon_color);
   font-size: 25px;
 }
 
-.material-icons-filled.md-subnav-icon {
-  color: var(--nav_icon_color);
-  font-size: 10px;
-}
-
+.material-icons.md-nav-hovered,
 .material-icons-outlined.md-nav-hovered {
   color: var(--nav_icon_hover);
   font-size: 25px;
 }
 
-.material-icons.md-nav-hovered {
-  color: var(--nav_icon_hover);
-  font-size: 25px;
+.material-icons.md-subnav-icon {
+  font-size: 16px;
+  transform: translateY(2px);
 }
 
 .material-icons.md-nav-icon:hover {
