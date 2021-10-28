@@ -30,18 +30,24 @@ body {
   grid-column: 2/4;
 }
 
-.subnav__fixed {
+.subnav__content {
+  height: calc(100% - 80px);
+}
+
+.content__fixed--item {
+  position: sticky;
+  top: 0px;
   padding: 20px 30px;
 }
 
 .fixed--title {
+  padding-left: 3px;
   padding-bottom: 15px;
-  color: var(--white);
+  color: var(--sub_nav_font_hover);
 }
 
 .fixed--subject {
   margin-right: 92px;
-  padding-left: 5px;
   line-height: 34.82px;
   color: var(--sub_nav_font_color);
 }
