@@ -8,7 +8,16 @@
     <title>HTML & CSS PISCINE | ABOUT</title>
     <meta name="description" content="42 HTML & CSS Piscine Homepage" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/home_desktop.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="css/home_desktop.css"
+    />
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
@@ -17,11 +26,15 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded"
+    />
   </head>
 
   <body>
     <div class="layout">
-      <nav class="layout__nav">
+      <nav class="layout__nav hidden-mobile">
         <a href="index.html"
           ><img src="assets/42_logo_nav.svg" class="layout__nav--logo"
         /></a>
@@ -84,6 +97,16 @@
       </nav>
 
       <header class="layout__header">
+        <a href="index.html">
+          <img
+            class="header__logo hidden-desktop"
+            src="assets/42_logo_nav.svg"
+          />
+        </a>
+        <label for="mobile-nav" class="header__nav--label hidden-desktop">
+          <i class="material-icons md-nav-icon">menu</i>
+        </label>
+        <input type="checkbox" id="mobile-nav" class="hidden-desktop" />
         <a href="index.html">
           <div class="header__content">
             <h2 class="header-content__title">HTML & CSS Piscine</h2>

@@ -5,6 +5,6 @@
 .content__frame {
   height: calc(100% - 40px);
   margin: 40px;
-  padding: 20px 30px;
+  padding: 1.25em 1.86em;
   background: white;
 }

@@ -1,3 +1,7 @@
+.hidden-desktop {
+  display: none;
+}
+
 /* SECTION : material icons */
 
 .material-icons.md-subnav-icon {
@@ -11,10 +15,10 @@ body {
 }
 
 .layout {
-  height: inherit;
   display: grid;
   grid-template-columns: 80px 220px 1fr;
   grid-template-rows: 60px 1fr 60px;
+  height: inherit;
 }
 
 .layout__nav {

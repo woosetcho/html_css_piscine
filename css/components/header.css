@@ -1,3 +1,12 @@
+.header__logo {
+  width: 42.72px;
+  height: 30px;
+  padding: 15px 18.64px;
+  position: fixed;
+  float: left;
+  background: var(--nav_color);
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
@@ -8,7 +17,7 @@
 }
 
 .header-content__title {
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 700;
   line-height: 40px;
   color: #666666;

@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+  height: inherit;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+.header__logo {
+  display: block;
+}
+
+.header___nav/* #subnav--toggle; */;
