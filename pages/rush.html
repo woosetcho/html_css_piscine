@@ -8,14 +8,19 @@
     <title>HTML & CSS PISCINE | RUSH</title>
     <meta name="description" content="42 HTML & CSS Piscine Rush Subject" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="../css/project_desktop.css" />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      media="screen and (max-width: 768px)"
+      href="../css/mobile.css"
     />
     <link
       rel="stylesheet"
-      href="https://fonts.googleapis.com/icon?family=Material+Icons+Filled"
+      media="screen and (min-width: 769px)"
+      href="../css/project_desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
     />
     <link
       rel="stylesheet"
@@ -25,7 +30,7 @@
 
   <body>
     <div class="layout">
-      <nav class="layout__nav">
+      <nav class="layout__nav hidden-desktop">
         <a href="../index.html"
           ><img src="../assets/42_logo_nav.svg" class="layout__nav--logo"
         /></a>
@@ -48,7 +53,7 @@
         </ul>
       </nav>
 
-      <div class="layout__subnav">
+      <div class="layout__subnav hidden-desktop">
         <div class="subnav__content">
           <ul class="content__fixed--item">
             <li class="fixed--title text-bold"><h3>PROJECTS</h3></li>
@@ -93,9 +98,59 @@
 
       <header class="layout__header">
         <a href="../index.html">
+          <img
+            class="header__logo hidden-desktop"
+            src="../assets/42_logo_nav.svg"
+          />
+        </a>
+        <label for="mobile-nav" class="header__nav--label hidden-desktop">
+          <i class="material-icons md-menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul id="mobile-nav--toggle" class="hidden-desktop">
+          <li class="mobile-nav__page xlarge">
+            <a href="../index.html">About</a>
+          </li>
+          <li class="mobile-nav__page xlarge">Project</li>
+          <ul class="mobile-nav__page--projects large">
+            <li class="page--projects">
+              <a href="../pages/day00.html">DAY00</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day01.html">DAY01</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day02.html">DAY02</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day03.html">DAY03</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day04.html">DAY04</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day05.html">DAY05</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/rush.html">RUSH</a>
+            </li>
+          </ul>
+          <li class="mobile-nav__page xlarge">
+            <a href="../pages/guideline.html">Guideline</a>
+          </li>
+        </ul>
+        <div class="header__empty hidden-desktop"></div>
+        <a href="../index.html">
           <div class="header__content">
             <h2 class="header-content__title">HTML & CSS Piscine</h2>
-            <img class="header-content__img" src="../assets/header_chick.jpg" />
+            <img
+              class="header-content__img hidden-mobile"
+              src="../assets/header_chick.jpg"
+            />
           </div>
         </a>
       </header>

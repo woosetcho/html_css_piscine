@@ -1,1 +1,19 @@
-@import "reset.css";
+/* SECTION - IMPORT CSS PRESETS */
+
+@import "preset/reset.css";
+@import "preset/variables.css";
+@import "preset/fonts.css";
+@import "preset/layout_mobile.css";
+
+/* SECTION - IMPORT COMPONENTS */
+
+@import "components/header.css";
+@import "components/nav.css";
+@import "components/main.css";
+@import "components/footer.css";
+@import "components/content.css";
+@import "components/mobile_spec.css";
+
+*:not(.material-icons) {
+  font-family: "Source Sans Pro";
+}

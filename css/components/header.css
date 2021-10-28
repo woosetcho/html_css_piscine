@@ -1,14 +1,22 @@
+.header__logo {
+  width: 42.72px;
+  height: 30px;
+  padding: 15px 18.64px;
+  float: left;
+  background: var(--nav_color);
+}
+
 .header__content {
   display: flex;
   justify-content: space-between;
-  width: 240px;
   height: inherit;
   float: right;
   margin: 10px 15px;
 }
 
 .header-content__title {
-  font-size: 20px;
+  width: 180px;
+  font-size: 1.25em;
   font-weight: 700;
   line-height: 40px;
   color: #666666;
@@ -17,5 +25,6 @@
 .header-content__img {
   width: 40px;
   height: 40px;
+  margin-left: 20px;
   border-radius: 50%;
 }

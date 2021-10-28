@@ -12,3 +12,7 @@ body {
 .layout__nav {
   grid-row: 1/4;
 }
+
+.hidden-desktop {
+  display: none;
+}

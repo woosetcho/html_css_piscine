@@ -1,0 +1,29 @@
+body {
+  height: 100vh;
+}
+
+.hidden-mobile {
+  display: none;
+}
+
+.layout {
+  display: grid;
+  grid-template-rows: 60px 1fr 60px;
+}
+
+.layout__header {
+  display: grid;
+  grid-template-columns: 80px 60px 1fr 180px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: var(--white);
+}
+
+.layout__content {
+  grid-row: 2/3;
+}
+
+.layout__footer {
+  grid-row: 3/4;
+}
