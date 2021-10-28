@@ -13,7 +13,7 @@ body {
 
 .layout__header {
   display: grid;
-  grid-template-columns: 80px 60px 1fr;
+  grid-template-columns: 80px 60px 1fr 180px;
   width: 100%;
   position: fixed;
   top: 0;
