@@ -35,16 +35,15 @@
 .layout__nav--logo {
   width: 42.72px;
   height: 30px;
-  margin: 15px 18.64px;
-  position: fixed;
+  padding: 15px 18.64px;
 }
 
 .layout__nav--items {
   display: flex;
   flex-direction: column;
-  position: fixed;
   top: 60px;
   margin: 0px 27.5px;
+  position: sticky;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
@@ -54,26 +53,27 @@
   margin: 17.5px 0px;
 }
 
-#subnav--toggle {
+.subnav--toggle {
   position: fixed;
   left: 80px;
-  top: 60px;
+  top: 0px;
   width: 160px;
-  height: calc(100% - 100px);
+  height: calc(100%);
   list-style: none;
   background: var(--sub_nav_color);
   color: var(--sub_nav_font_color);
 }
 
-#subnav--toggle,
+.subnav--toggle,
 #subnav {
   display: none;
 }
 
-#subnav:checked + #subnav--toggle {
+#subnav:checked ~ .subnav--toggle {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
+  padding-top: 80px;
   color: var(--nav_icon_hover);
 }
 
