@@ -2,7 +2,6 @@
   width: 42.72px;
   height: 30px;
   padding: 15px 18.64px;
-  position: fixed;
   float: left;
   background: var(--nav_color);
 }

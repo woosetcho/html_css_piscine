@@ -24,7 +24,8 @@
 }
 
 .content__logo {
-  width: 320px;
+  width: 60%;
+  max-width: 320px;
   margin: 50px;
 }
 
@@ -39,8 +40,8 @@
 }
 
 .content__table {
-  width: 550px;
-  min-width: 500px;
+  width: 100%;
+  max-width: 550px;
   margin: 15px 0;
 }
 
@@ -50,8 +51,8 @@
 }
 
 .content__table--td {
-  width: 20%;
-  min-width: 100px;
+  width: 30%;
+  min-width: 30px;
   line-height: 1.8em;
   padding: 0 15px;
 }
@@ -93,7 +94,6 @@
 }
 
 .content__img {
-  width: 50%;
-  min-width: 420px;
-  max-width: 600px;
+  width: 100%;
+  max-width: 500px;
 }

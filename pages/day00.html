@@ -16,7 +16,7 @@
     <link
       rel="stylesheet"
       media="screen and (min-width: 769px)"
-      href="../css/home_desktop.css"
+      href="../css/project_desktop.css"
     />
     <link
       rel="stylesheet"
@@ -30,7 +30,7 @@
 
   <body>
     <div class="layout">
-      <nav class="layout__nav">
+      <nav class="layout__nav hidden-mobile">
         <a href="../index.html"
           ><img src="../assets/42_logo_nav.svg" class="layout__nav--logo"
         /></a>
@@ -53,7 +53,7 @@
         </ul>
       </nav>
 
-      <div class="layout__subnav">
+      <div class="layout__subnav hidden-mobile">
         <div class="subnav__content">
           <ul class="content__fixed--item">
             <li class="fixed--title text-bold"><h3>PROJECTS</h3></li>
@@ -97,6 +97,52 @@
       </div>
 
       <header class="layout__header">
+        <a href="../index.html">
+          <img
+            class="header__logo hidden-desktop"
+            src="../assets/42_logo_nav.svg"
+          />
+        </a>
+        <label for="mobile-nav" class="header__nav--label hidden-desktop">
+          <i class="material-icons md-menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul id="mobile-nav--toggle" class="hidden-desktop">
+          <li class="mobile-nav__page xlarge">
+            <a href="../index.html">About</a>
+          </li>
+          <li class="mobile-nav__page xlarge">Project</li>
+          <ul class="mobile-nav__page--projects large">
+            <li class="page--projects">
+              <a href="../pages/day00.html">DAY00</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day01.html">DAY01</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day02.html">DAY02</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day03.html">DAY03</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day04.html">DAY04</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/day05.html">DAY05</a>
+            </li>
+            <li class="page--projects">
+              <a href="../pages/rush.html">RUSH</a>
+            </li>
+          </ul>
+          <li class="mobile-nav__page xlarge">
+            <a href="../pages/guideline.html">Guideline</a>
+          </li>
+        </ul>
         <a href="../index.html">
           <div class="header__content">
             <h2 class="header-content__title">HTML & CSS Piscine</h2>
