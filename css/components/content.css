@@ -76,7 +76,7 @@
 .content__code {
   display: flex;
   flex-direction: column;
-  padding: 30px 100px 30px 30px;
+  padding: 30px 80px 30px 30px;
   margin: 10px 8% 10px 0;
   background: var(--code_block);
 }

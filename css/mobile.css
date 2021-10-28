@@ -12,10 +12,7 @@
 @import "components/main.css";
 @import "components/footer.css";
 @import "components/content.css";
-
-* {
-  font-size: 75%;
-}
+@import "components/mobile_spec.css";
 
 *:not(.material-icons) {
   font-family: "Source Sans Pro";
