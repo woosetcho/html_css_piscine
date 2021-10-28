@@ -39,11 +39,15 @@
   width: 42.72px;
   height: 30px;
   margin: 15px 18.64px;
+  position: fixed;
 }
 
 .layout__nav--items {
   display: flex;
   flex-direction: column;
+  position: fixed;
+  top: 60px;
+  margin: 0px 27.5px;
   flex-wrap: nowrap;
   justify-content: space-evenly;
   align-items: center;
