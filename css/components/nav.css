@@ -5,6 +5,16 @@
   font-size: 25px;
 }
 
+.material-icons-outlined.md-nav-icon {
+  color: var(--nav_icon_color);
+  font-size: 25px;
+}
+
+.material-icons-filled.md-subnav-icon {
+  color: var(--nav_icon_color);
+  font-size: 10px;
+}
+
 .material-icons-outlined.md-nav-hovered {
   color: var(--nav_icon_hover);
   font-size: 25px;
@@ -12,11 +22,6 @@
 
 .material-icons.md-nav-hovered {
   color: var(--nav_icon_hover);
-  font-size: 25px;
-}
-
-.material-icons-outlined.md-nav-icon {
-  color: var(--nav_icon_color);
   font-size: 25px;
 }
 
@@ -58,7 +63,7 @@
 }
 
 #subnav--toggle {
-  position: absolute;
+  position: fixed;
   left: 80px;
   top: 60px;
   width: 160px;
