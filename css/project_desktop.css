@@ -57,6 +57,7 @@
 }
 
 .content__table {
+  width: 550px;
   min-width: 500px;
   margin: 15px 0;
 }
@@ -67,6 +68,8 @@
 }
 
 .content__table--td {
+  width: 20%;
+  min-width: 100px;
   line-height: 1.8em;
   padding: 0 15px;
 }
