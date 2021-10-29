@@ -97,3 +97,7 @@
   width: 100%;
   max-width: 500px;
 }
+
+.img-margin {
+  margin: 15px 0;
+}
