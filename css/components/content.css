@@ -3,6 +3,13 @@
   color: var(--font_dark);
 }
 
+.content__section .material-icons-outlined {
+  font-family: "Material Icons Outlined";
+  font-size: 1.2em;
+  color: var(--font_dark);
+  vertical-align: middle;
+}
+
 /* SECTION - CONTENT SIZES */
 
 .content__head,
@@ -50,6 +57,10 @@
   line-height: 2em;
 }
 
+.content__table--td-name {
+  line-height: 1.8em;
+}
+
 .content__table--td {
   width: 24%;
   max-width: 25px;
@@ -57,8 +68,29 @@
   line-height: 1.8em;
 }
 
+.content__table--td-colon {
+  width: 5px;
+}
+
+.content__table--td-data {
+  padding-left: 10px;
+}
+
 .content__table--tr.content__table--ex-name {
   text-align: center;
+}
+
+.content__tip .material-icons-outlined {
+  padding: 0 0.35em;
+}
+
+.content__tip {
+  width: 100%;
+  max-width: 550px;
+  margin: 10px 0;
+  background: var(--tip_bg);
+  line-height: 2.5em;
+  vertical-align: middle;
 }
 
 .content__list {

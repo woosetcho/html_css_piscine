@@ -112,10 +112,10 @@
           class="hidden-desktop hidden-mobile"
         />
         <ul class="header__mobile-nav--toggle hidden-desktop">
-          <li class="mobile-nav__page large">
+          <li class="mobile-nav__page large text-bold">
             <a href="../index.html">About</a>
           </li>
-          <li class="mobile-nav__page large">Project</li>
+          <li class="mobile-nav__page large text-bold">Project</li>
           <ul class="mobile-nav__page--projects">
             <li class="page--projects">
               <a href="day00.html"
@@ -153,7 +153,7 @@
               >
             </li>
           </ul>
-          <li class="mobile-nav__page large">
+          <li class="mobile-nav__page large text-bold">
             <a href="guideline.html">Guideline</a>
           </li>
         </ul>
@@ -242,51 +242,243 @@
             <h3 class="content__subhead xlarge text-bold">Today's Rule</h3>
             <ul class="content__list">
               <li>
-                Exercise에 명시되어 있지 않다면 모든 style 사용을 금지합니다.
+                아이콘을 찾으시나요?
+                <a
+                  class="text-underline text-bold"
+                  href="https://fontawesome.com/"
+                  >엄청난 폰트</a
+                >를 사용해보세요.
               </li>
+              <li>이번 과제에서는 특별히 id 사용을 허용합니다.</li>
+              <li>폰트, 색상은 예시 이미지와 조금 달라도 괜찮습니다.</li>
+              <li>position CSS 속성을 사용하지 마세요.</li>
             </ul>
+          </section>
 
-            <hr class="horiz-divider" />
+          <hr class="horiz-divider" />
 
+          <section class="content__section">
             <h3 class="content__subhead xlarge text-bold">
-              Exercise 00 : Hello World!
+              Exercise 00 : HTML is ugly
             </h3>
             <table class="content__table">
               <thead class="content__table--thead text-bold">
                 <tr class="content__table--tr">
-                  <th colspan="2">Exercise 00</th>
+                  <th colspan="3">Exercise 00</th>
                 </tr>
               </thead>
               <tbody class="content__table--tbody">
                 <tr class="content__table--tr content__table--ex-name">
-                  <td colspan="2" class="content__table--td">Hello World!</td>
-                </tr>
-                <tr class="content__table--tr">
-                  <td class="content__table--td">제출 디렉토리</td>
-                  <td class="content__table--td-data">
-                    :&nbsp;&nbsp;&nbsp;&nbsp;ex00/
+                  <td colspan="3" class="content__table--td-name">
+                    HTML is ugly
                   </td>
                 </tr>
                 <tr class="content__table--tr">
+                  <td class="content__table--td">제출 디렉토리</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">ex00/</td>
+                </tr>
+                <tr class="content__table--tr">
                   <td class="content__table--td">제출 파일</td>
+                  <td class="content__table--td-colon">:</td>
                   <td class="content__table--td-data">
-                    :&nbsp;&nbsp;&nbsp;&nbsp;index.html
+                    index.html, image files if necessary
                   </td>
                 </tr>
                 <tr class="content__table--tr">
                   <td class="content__table--td">허용 태그</td>
+                  <td class="content__table--td-colon">:</td>
                   <td class="content__table--td-data">
-                    :&nbsp;&nbsp;&nbsp;&nbsp;NONE
+                    header, main, footer, h1, div, form, input, button, hr, p,
+                    img, a, select, optgroup, option
                   </td>
                 </tr>
               </tbody>
             </table>
             <ul class="content__list">
-              <li>"Hello World!"를 페이지에 출력하세요.</li>
+              <li>아래 사진과 같이 페이지에 출력하세요.</li>
+              <li>Log in을 클릭하면 입력한 내용들이 제출됩니다.</li>
+              <li>
+                Log in with 42book, Forgot password?, Sign Up을 클릭하면 큰
+                변화는 없습니다.
+              </li>
             </ul>
+            <p class="content__tip">
+              <i class="material-icons-outlined">lightbulb</i>Password는 남에게
+              보여주면 안되겠죠?
+            </p>
+            <p class="content__tip">
+              <i class="material-icons-outlined">lightbulb</i>HTML semantic을
+              구글링 해보세요.
+            </p>
+            <img class="content__img" src="../assets/day01/ex00.png" />
+            <ul class="content__list">
+              <li>Korean을 누르면 언어를 선택할 수 있어요.</li>
+            </ul>
+            <img class="content__img" src="../assets/day01/ex00_option.png" />
           </section>
 
           <hr class="horiz-divider" />
+
+          <section class="content__section">
+            <h3 class="content__subhead xlarge text-bold">
+              Exercise 01 : Colorful is Wonderful!
+            </h3>
+            <table class="content__table">
+              <thead class="content__table--thead text-bold">
+                <tr class="content__table--tr">
+                  <th colspan="3">Exercise 01</th>
+                </tr>
+              </thead>
+              <tbody class="content__table--tbody">
+                <tr class="content__table--tr content__table--ex-name">
+                  <td colspan="3" class="content__table--td-name">
+                    Colorful is Wonderful!
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 디렉토리</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">ex01/</td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 파일</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    index.html, style.css, image files if necessary
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">허용 태그</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    header, main, footer, h1, div, form, input, button, hr, p,
+                    img, a, select, optgroup, option
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content__list">
+              <li>
+                ex00의 index.html을 수정하여 아래 사진과 같이 페이지에
+                출력하세요.
+              </li>
+              <li>External style sheet를 사용하세요.</li>
+              <li>다양한 style 속성을 사용해보세요.</li>
+              <li>block들의 width는 320px입니다.</li>
+            </ul>
+            <p class="content__tip">
+              <i class="material-icons-outlined">lightbulb</i>Margin, border,
+              padding의 차이는 뭘까요?
+            </p>
+            <img class="content__img" src="../assets/day01/ex01.png" />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <section class="content__section">
+            <h3 class="content__subhead xlarge text-bold">
+              Exercise 02 : Combination pizza is delicious!
+            </h3>
+            <table class="content__table">
+              <thead class="content__table--thead text-bold">
+                <tr class="content__table--tr">
+                  <th colspan="3">Exercise 02</th>
+                </tr>
+              </thead>
+              <tbody class="content__table--tbody">
+                <tr class="content__table--tr content__table--ex-name">
+                  <td colspan="3" class="content__table--td-name">
+                    Combination pizza is delicious!
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 디렉토리</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">ex02/</td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 파일</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    index.html, style.css, image files if necessary
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">허용 태그</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    span, header, main, footer, h1, div, form, input, button,
+                    hr, p, img, a, select, optgroup, option
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content__list">
+              <li>
+                combinator selector를 사용해서 아래와 같이 페이지를 더 예쁘게
+                만들어보세요.
+              </li>
+              <li>Forgot password?, Sign Up은 여전히 링크입니다.</li>
+            </ul>
+            <img class="content__img" src="../assets/day01/ex02.png" />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <section class="content__section">
+            <h3 class="content__subhead xlarge text-bold">
+              Exercise 03 : FLEX! Design smarter!
+            </h3>
+            <table class="content__table">
+              <thead class="content__table--thead text-bold">
+                <tr class="content__table--tr">
+                  <th colspan="3">Exercise 03</th>
+                </tr>
+              </thead>
+              <tbody class="content__table--tbody">
+                <tr class="content__table--tr content__table--ex-name">
+                  <td colspan="3" class="content__table--td-name">
+                    FLEX! Design smarter!
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 디렉토리</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">ex03/</td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">제출 파일</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    index.html, style.css, image files if necessary
+                  </td>
+                </tr>
+                <tr class="content__table--tr">
+                  <td class="content__table--td">허용 태그</td>
+                  <td class="content__table--td-colon">:</td>
+                  <td class="content__table--td-data">
+                    span, header, main, footer, h1, div, form, input, button,
+                    hr, p, img, a, select, optgroup, option
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content__list">
+              <li>ex02의 코드를 id, class, flexbox를 사용해 바꿔보세요.</li>
+              <li>이미 이전에 사용하셨다면 잘하셨습니다.</li>
+            </ul>
+            <p class="content__tip">
+              <i class="material-icons-outlined">lightbulb</i>"Form is
+              temporary, but class is permanent" - Bill Shankly
+            </p>
+            <img class="content__img" src="../assets/day01/ex03.png" />
+            <p class="content__tip">
+              <i class="material-icons-outlined">lightbulb</i>Flexbox를
+              사용한다면 창 크기를 줄였을 때 아래와 같이 되겠죠?
+            </p>
+            <img class="content__img" src="../assets/day01/ex03_narrow.png" />
+          </section>
         </div>
       </main>
 
