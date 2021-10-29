@@ -26,12 +26,13 @@ body {
 }
 
 .layout__subnav {
-  grid-row: 2/4;
+  grid-row: 1/4;
+  grid-column: 2/3;
   background: var(--sub_nav_color);
 }
 
 .layout__header {
-  grid-column: 2/4;
+  grid-column: 3/4;
 }
 
 .subnav__content {
@@ -41,7 +42,7 @@ body {
 .content__fixed--item {
   position: sticky;
   top: 0px;
-  padding: 20px 30px;
+  padding: 80px 30px;
 }
 
 .fixed--title {
