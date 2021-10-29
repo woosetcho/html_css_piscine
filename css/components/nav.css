@@ -78,7 +78,7 @@
 }
 
 .subnav--toggle__title {
-  padding: 0 15px 0 3px;
+  padding: 0 0 15px 3px;
   color: var(--sub_nav_font_hover);
 }
 

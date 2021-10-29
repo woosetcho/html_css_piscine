@@ -51,10 +51,10 @@
 }
 
 .content__table--td {
-  width: 30%;
-  min-width: 30px;
+  width: 24%;
+  max-width: 25px;
+  padding: 0 5px 0 15px;
   line-height: 1.8em;
-  padding: 0 15px;
 }
 
 .content__table--tr.content__table--ex-name {
