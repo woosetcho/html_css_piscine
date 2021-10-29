@@ -8,10 +8,14 @@
   font-size: 18px;
 }
 
-.material-icons.md-menu-icon {
+.material-icons.menu-icon {
   padding: 14px;
   font-size: 32px;
   color: var(--menu_icon);
+}
+
+.material-icons.menu-icon:hover {
+  cursor: pointer;
 }
 
 .header__mobile-nav--toggle {
