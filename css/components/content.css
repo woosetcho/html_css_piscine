@@ -57,6 +57,14 @@
   line-height: 1.8em;
 }
 
+.content__table--td-colon {
+  width: 5px;
+}
+
+.content__table--td-data {
+  padding-left: 10px;
+}
+
 .content__table--tr.content__table--ex-name {
   text-align: center;
 }
