@@ -90,3 +90,16 @@
 .subnav--toggle__subject:hover {
   color: var(--sub_nav_font_hover);
 }
+
+.material-icons.md-subnav-icon:hover {
+  animation: vib 0.5s infinite alternate;
+}
+
+@keyframes vib {
+  66% {
+    transform: rotate(20deg);
+  }
+  33% {
+    transform: rotate(-20deg);
+  }
+}
