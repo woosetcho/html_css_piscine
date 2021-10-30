@@ -86,7 +86,7 @@
 
 .content__tip {
   width: 100%;
-  max-width: 550px;
+  max-width: 600px;
   margin: 10px 0;
   background: var(--tip_bg);
   line-height: 2.5em;
@@ -131,5 +131,12 @@
 }
 
 .img-margin {
+  margin: 15px 0;
+}
+
+.content__video {
+  width: 100%;
+  max-width: 500px;
+  height: 600px;
   margin: 15px 0;
 }
