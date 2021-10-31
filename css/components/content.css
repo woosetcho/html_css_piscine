@@ -99,6 +99,12 @@
   line-height: 1.5em;
 }
 
+.content__list .material-icons {
+  vertical-align: middle;
+  font-family: "material icons";
+  font-size: 1em;
+}
+
 .content__list--sub-list {
   padding: 10px 30px;
   list-style: circle;
@@ -139,4 +145,32 @@
   max-width: 500px;
   height: 600px;
   margin: 15px 0;
+}
+
+.content__flex {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 900px;
+}
+
+.content__flex--img {
+  width: 100%;
+  max-width: 400px;
+}
+
+.flex--frame {
+  width: 100%;
+  max-width: 380px;
+  height: 600px;
+  margin: 15px 0 15px 20px;
+}
+
+.frame--video {
+  height: 580px;
+}
+
+.frame-caption {
+  color: var(--font_gray);
+  margin: 10px 5px;
 }
