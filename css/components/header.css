@@ -1,30 +1,28 @@
 .header-logo {
-  width: 42.72px;
+  background: var(--nav_color);
+  float: left;
   height: 30px;
   padding: 15px 18.64px;
-  float: left;
-  background: var(--nav_color);
+  width: 42.72px;
 }
 
 .header-content {
   display: flex;
-  justify-content: space-between;
-  height: inherit;
   float: right;
+  height: inherit;
+  justify-content: space-between;
   margin: 10px 15px;
 }
 
 .header-content-title {
-  width: 180px;
-  font-size: 1.25em;
-  font-weight: 700;
-  line-height: 40px;
   color: #666666;
+  font: 700 1.25em/40px "NanumSquare";
+  width: 180px;
 }
 
 .header-content-img {
-  width: 40px;
-  height: 40px;
-  margin-left: 20px;
   border-radius: 50%;
+  height: 40px;
+  margin: 0 0 0 20px;
+  width: 40px;
 }
