@@ -1,8 +1,8 @@
-.layout__content {
+.layout-content {
   background: var(--main_footer_bg_color);
 }
 
-.content__frame {
+.content-frame {
   height: calc(100% - 40px);
   margin: 40px;
   padding: 1.25em 1.86em;

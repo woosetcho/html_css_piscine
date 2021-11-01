@@ -9,7 +9,7 @@ body {
   height: inherit;
 }
 
-.layout__nav {
+.layout-nav {
   grid-row: 1/4;
 }
 

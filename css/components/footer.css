@@ -1,8 +1,8 @@
-.layout__footer {
+.layout-footer {
   background: var(--main_footer_bg_color);
 }
 
-.layout__footer--text {
+.layout-footer-text {
   margin: 22px 0;
   text-align: center;
 }

@@ -1,4 +1,4 @@
-.header__logo {
+.header-logo {
   width: 42.72px;
   height: 30px;
   padding: 15px 18.64px;
@@ -6,7 +6,7 @@
   background: var(--nav_color);
 }
 
-.header__content {
+.header-content {
   display: flex;
   justify-content: space-between;
   height: inherit;
@@ -14,7 +14,7 @@
   margin: 10px 15px;
 }
 
-.header-content__title {
+.header-content-title {
   width: 180px;
   font-size: 1.25em;
   font-weight: 700;
@@ -22,7 +22,7 @@
   color: #666666;
 }
 
-.header-content__img {
+.header-content-img {
   width: 40px;
   height: 40px;
   margin-left: 20px;

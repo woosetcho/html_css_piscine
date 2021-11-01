@@ -21,46 +21,46 @@ body {
   height: inherit;
 }
 
-.layout__nav {
+.layout-nav {
   grid-row: 1/4;
 }
 
-.layout__subnav {
+.layout-subnav {
   grid-row: 1/4;
   grid-column: 2/3;
   background: var(--sub_nav_color);
 }
 
-.layout__header {
+.layout-header {
   grid-column: 3/4;
 }
 
-.subnav__content {
+.subnav-content {
   height: calc(100% - 80px);
 }
 
-.content__fixed--item {
+.content-fixed-item {
   position: sticky;
   top: 0px;
   padding: 80px 30px;
 }
 
-.fixed--title {
+.fixed-title {
   padding-left: 3px;
   padding-bottom: 15px;
   color: var(--sub_nav_font_hover);
 }
 
-.fixed--subject {
+.fixed-subject {
   margin-right: 92px;
   line-height: 34.82px;
   color: var(--sub_nav_font_color);
 }
 
-.fixed--subject:hover {
+.fixed-subject:hover {
   color: var(--sub_nav_font_hover);
 }
 
-.fixed--subject--active {
+.fixed-subject-active {
   color: var(--sub_nav_font_hover);
 }

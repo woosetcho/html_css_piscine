@@ -11,7 +11,7 @@ body {
   grid-template-rows: 60px 1fr 60px;
 }
 
-.layout__header {
+.layout-header {
   display: grid;
   grid-template-columns: 80px 60px 1fr 180px;
   width: 100%;
@@ -20,10 +20,10 @@ body {
   background: var(--white);
 }
 
-.layout__content {
+.layout-content {
   grid-row: 2/3;
 }
 
-.layout__footer {
+.layout-footer {
   grid-row: 3/4;
 }
