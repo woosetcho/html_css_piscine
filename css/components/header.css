@@ -15,9 +15,9 @@
 }
 
 .header-content-title {
-  width: 180px;
-  font: 700 1.25em/40px "NanumSquare";
   color: #666666;
+  font: 700 1.25em/40px "NanumSquare";
+  width: 180px;
 }
 
 .header-content-img {
