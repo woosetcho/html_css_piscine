@@ -148,6 +148,14 @@
   border-radius: 1%;
 }
 
+.content__video-horiz {
+  width: 100%;
+  max-width: 500px;
+  height: 360px;
+  margin: 15px 0;
+  border-radius: 1%;
+}
+
 .content__flex {
   display: flex;
   flex-wrap: wrap;
