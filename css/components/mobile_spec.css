@@ -1,17 +1,17 @@
 .header-nav-label {
-  width: 60px;
   color: black;
+  width: 60px;
 }
 
 .header-content-title {
-  width: 160px;
   font-size: 18px;
+  width: 160px;
 }
 
 .material-icons.menu-icon {
-  padding: 14px;
-  font-size: 32px;
   color: var(--menu_icon);
+  font-size: 32px;
+  padding: 14px;
 }
 
 .material-icons.menu-icon:hover {
@@ -19,20 +19,20 @@
 }
 
 .header-mobile-nav-toggle {
+  background: var(--sub_nav_color);
+  color: var(--sub_nav_font_color);
   display: none;
+  list-style: none;
   position: fixed;
   top: 60px;
   width: 100%;
-  list-style: none;
-  background: var(--sub_nav_color);
-  color: var(--sub_nav_font_color);
 }
 
 #mobile-nav:checked + .header-mobile-nav-toggle {
+  color: var(--nav_icon_hover);
   display: flex;
   flex-direction: column;
   padding: 20px 30px 20px 60px;
-  color: var(--nav_icon_hover);
 }
 
 .mobile-nav-page-projects {
