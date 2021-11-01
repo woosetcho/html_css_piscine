@@ -21,7 +21,7 @@ BEM은 기본적으로 id와 CSS tag가 아닌 class만 사용해야 합니다.
 .class #test_id { ... } ❌
 .class div { ... } ❌
 
-.class__test { ... } 👌
+.class-test { ... } 👌
 ```
 
 ### Block
@@ -41,16 +41,16 @@ BEM은 기본적으로 id와 CSS tag가 아닌 class만 사용해야 합니다.
 - element는 block 안에서 특정 기능을 수행하는 컴포넌트 입니다. element는 상황에 따라 달라집니다. 각 element는 두 개의 밑줄표시로 연결하여 block 다음에 작성합니다.
 
 ```css
-.header__logo { … }
-.header__menu { … }
-.header__search { … }
-.header__login { … }
+.header-logo { … }
+.header-menu { … }
+.header-search { … }
+.header-login { … }
 ```
 
 - block 이름이나 element 이름이 길 경우 하이픈(-)으로 연결합니다.
 
 ```css
-.block-name__element-name
+.block-name-element-name
 ```
 
 ### Modifiers
@@ -61,13 +61,13 @@ BEM은 기본적으로 id와 CSS tag가 아닌 class만 사용해야 합니다.
 
 ```css
 .block‐‐modifier { … }
-.block__element--modifier { … }
+.block-element-modifier { … }
 ```
 
 - 탭 메뉴가 다른 영역에서 다른 스타일로 사용된다면 메인 속성을 복사하여 추가하여야 합니다.
 
 ```css
-.header__navigation {
+.header-navigation {
   background: #008cba;
   padding: 1px 0;
   margin: 2px 0;

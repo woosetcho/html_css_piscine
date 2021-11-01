@@ -28,17 +28,17 @@
 
 /* SECTION : nav bar layout */
 
-.layout__nav {
+.layout-nav {
   background: var(--nav_color);
 }
 
-.layout__nav--logo {
+.layout-nav-logo {
   width: 42.72px;
   height: 30px;
   padding: 15px 18.64px;
 }
 
-.layout__nav--items {
+.layout-nav-items {
   display: flex;
   flex-direction: column;
   top: 60px;
@@ -49,11 +49,11 @@
   align-items: center;
 }
 
-.nav__items--icon {
+.nav-items-icon {
   margin: 17.5px 0px;
 }
 
-.subnav--toggle {
+.subnav-toggle {
   position: fixed;
   left: 80px;
   top: 0px;
@@ -64,12 +64,12 @@
   color: var(--sub_nav_font_color);
 }
 
-.subnav--toggle,
+.subnav-toggle,
 #subnav {
   display: none;
 }
 
-#subnav:checked ~ .subnav--toggle {
+#subnav:checked ~ .subnav-toggle {
   display: flex;
   flex-direction: column;
   padding: 20px 30px;
@@ -77,17 +77,17 @@
   color: var(--nav_icon_hover);
 }
 
-.subnav--toggle__title {
+.subnav-toggle-title {
   padding: 0 0 15px 3px;
   color: var(--sub_nav_font_hover);
 }
 
-.subnav--toggle__subject {
+.subnav-toggle-subject {
   line-height: 34.82px;
   color: var(--sub_nav_font_color);
 }
 
-.subnav--toggle__subject:hover {
+.subnav-toggle-subject:hover {
   color: var(--sub_nav_font_hover);
 }
 
