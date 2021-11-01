@@ -1,0 +1,12 @@
+.content-code {
+  background: var(--code_block);
+  display: flex;
+  flex-direction: column;
+  margin: 10px 8% 10px 0;
+  padding: 30px 80px 30px 30px;
+}
+
+.code-line {
+  color: var(--code_font) !important;
+  line-height: 1.5em;
+}
