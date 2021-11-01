@@ -1,0 +1,39 @@
+.content-table,
+.content-table-thead,
+.content-table-tr {
+  border: 1px solid var(--font_dark);
+}
+
+.content-table {
+  margin: 15px 0;
+  max-width: 550px;
+  width: 100%;
+}
+
+.content-table-thead {
+  background: var(--hor_line);
+  line-height: 2em;
+}
+
+.content-table-td-name {
+  line-height: 1.8em;
+}
+
+.content-table-td {
+  line-height: 1.8em;
+  max-width: 25px;
+  padding: 0 5px 0 15px;
+  width: 24%;
+}
+
+.content-table-td-colon {
+  width: 5px;
+}
+
+.content-table-td-data {
+  padding-left: 10px;
+}
+
+.content-table-tr.content-table-ex-name {
+  text-align: center;
+}

@@ -1,7 +1,7 @@
 /* SECTION - IMPORT CSS PRESETS */
 
 @import "preset/reset.css";
-@import "preset/variables.css";
+@import "preset/colors.css";
 @import "preset/fonts.css";
 @import "preset/layout_subnav_desktop.css";
 
