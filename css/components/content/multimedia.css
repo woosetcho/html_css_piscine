@@ -5,6 +5,7 @@
 }
 
 .content-img {
+  display: block;
   max-width: 500px;
   width: 100%;
 }
@@ -15,16 +16,18 @@
 
 .content-video {
   border-radius: 1%;
+  display: block;
   height: 600px;
-  margin: 15px 0;
+  margin: 1em;
   max-width: 500px;
   width: 100%;
 }
 
 .content-video-horiz {
   border-radius: 1%;
+  display: block;
   height: 360px;
-  margin: 15px 0;
+  margin: 1em;
   max-width: 500px;
   width: 100%;
 }
