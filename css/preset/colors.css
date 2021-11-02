@@ -7,11 +7,12 @@
   --sub_nav_font_color: #666e80;
   --sub_nav_font_hover: #f2f2f2;
   --main_footer_bg_color: #fafafa;
+  --footer_font: #777;
   --home_font_color: #25252b;
   --font_dark: #2c2c34;
   --font_gray: #67676c;
-  --white: #ffffff;
-  --black: #000000;
+  --white: #fff;
+  --black: #000;
   --mint: #68b8ba;
   --fail_red: #be636e;
   --pass_green: #95c478;

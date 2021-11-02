@@ -5,4 +5,5 @@
 .layout-footer-text {
   margin: 22px 0;
   text-align: center;
+  color: var(--footer_font);
 }
