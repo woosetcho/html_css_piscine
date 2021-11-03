@@ -15,6 +15,11 @@
   vertical-align: middle;
 }
 
+.content-section .material-icons {
+  font: 1.2em/100% "Material Icons";
+  vertical-align: middle;
+}
+
 /* SECTION - CONTENT SIZES */
 
 .horiz-divider {
