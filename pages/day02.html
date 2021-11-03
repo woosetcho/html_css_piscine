@@ -214,6 +214,7 @@
               <li>
                 HTML 파일에는 각 view 당 하나의 style sheet link만 허용합니다.
               </li>
+              <li>id를 사용할 때는 확실한 이유가 있어야 합니다.</li>
               <li>
                 사용이 금지된 HTML 태그를 사용하는 것은 부정 행위로 간주됩니다.
                 부정 행위는 -42점을 받게 되며, 받은 점수는 절대 조정이
@@ -361,17 +362,15 @@
               alt="ex01 photo"
             />
             <ul class="content-list">
-              <li>full screen에서는 아래와 같이 출력됩니다.</li>
+              <li>화면 크기에 따라 아래와 같이 작동합니다.</li>
             </ul>
             <p class="content-tip">
-              <i class="material-icons-outlined">lightbulb</i>repeat() &
-              minmax()를 검색해보세요.
+              <i class="material-icons-outlined">lightbulb</i>repeat(),
+              minmax(), auto-fill & auto-fit을 검색해보세요.
             </p>
-            <img
-              class="content-img"
-              src="../assets/day02/ex01_full.png"
-              alt="ex01 full screen photo"
-            />
+            <video class="content-video-horiz" controls>
+              <source src="../assets/day02/ex01.mp4" type="video/mp4" />
+            </video>
           </section>
 
           <hr class="horiz-divider" />
