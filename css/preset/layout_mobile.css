@@ -12,16 +12,18 @@ body {
 }
 
 .layout-header {
+  background: var(--white);
   display: grid;
   grid-template-columns: 80px 60px 1fr 180px;
-  width: 100%;
   position: fixed;
   top: 0;
-  background: var(--white);
+  width: 100%;
+  z-index: 1;
 }
 
 .layout-content {
   grid-row: 2/3;
+  z-index: 0;
 }
 
 .layout-footer {
