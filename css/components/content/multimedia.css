@@ -15,20 +15,22 @@
 }
 
 .content-video {
+  background: var(--black);
   border-radius: 1%;
   display: block;
-  height: 600px;
-  margin: 1em;
+  margin: 1.5em 1em;
   max-width: 500px;
+  padding: 10px 0;
   width: 100%;
 }
 
 .content-video-horiz {
+  background: var(--black);
   border-radius: 1%;
   display: block;
-  height: 360px;
-  margin: 1em;
+  margin: 1.5em 1em;
   max-width: 500px;
+  padding: 10px 0;
   width: 100%;
 }
 
@@ -52,6 +54,7 @@
 }
 
 .frame-video {
+  background: var(--black);
   border-radius: 1%;
   height: 540px;
   width: 100%;
