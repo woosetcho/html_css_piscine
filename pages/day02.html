@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="bokim, yongjule, ghan" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="../assets/chick_icon.png" rel="short icon" type="image/png" />
+    <title>HTML & CSS PISCINE | DAY02</title>
+    <meta name="description" content="42 HTML & CSS Piscine Day02 Subject" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="../css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="../css/project_desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <!-- SECTION - DESKTOP NAV BAR -->
+      <nav class="layout-nav hidden-mobile">
+        <a href="../index.html"
+          ><img
+            src="../assets/42_logo_nav.svg"
+            class="layout-nav-logo"
+            alt="42 logo"
+        /></a>
+        <ul class="layout-nav-items">
+          <li class="nav-items-icon">
+            <a href="../index.html"
+              ><i class="material-icons md-nav-icon">home</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="#"
+              ><i class="material-icons-outlined md-nav-hovered">hub</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="guideline.html"
+              ><i class="material-icons-outlined md-nav-icon">explore</i></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SECTION - PROJECTS SUBNAV -->
+      <div class="layout-subnav hidden-mobile">
+        <div class="subnav-content">
+          <ul class="content-fixed-item">
+            <li class="fixed-title text-bold"><h3>PROJECTS</h3></li>
+            <li class="fixed-subject">
+              <a href="day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="fixed-subject fixed-subject-active">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SECTION - HEADER -->
+      <header class="layout-header">
+        <a href="../index.html">
+          <img
+            class="header-logo hidden-desktop"
+            src="../assets/42_logo_nav.svg"
+            alt="42 logo"
+          />
+        </a>
+        <!-- SECTION - MOBILE NAV HIDDEN ON DESKTOP -->
+        <label for="mobile-nav" class="header-nav-label hidden-desktop">
+          <i class="material-icons menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul class="header-mobile-nav-toggle hidden-desktop">
+          <li class="mobile-nav-page large text-bold">
+            <a href="../index.html">About</a>
+          </li>
+          <li class="mobile-nav-page large text-bold">Project</li>
+          <ul class="mobile-nav-page-projects">
+            <li class="page-projects">
+              <a href="day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+          <li class="mobile-nav-page large text-bold">
+            <a href="guideline.html">Guideline</a>
+          </li>
+        </ul>
+        <div class="header-empty hidden-desktop"></div>
+        <a href="../index.html">
+          <div class="header-content">
+            <h2 class="header-content-title">HTML & CSS Piscine</h2>
+            <img
+              class="header-content-img hidden-mobile"
+              src="../assets/header_chick.jpg"
+              alt="chick photo"
+            />
+          </div>
+        </a>
+      </header>
+
+      <main class="layout-content">
+        <div class="content-frame">
+          <h2 class="content-head xxxlarge text-bold">DAY02</h2>
+
+          <!-- SECTION - BASIC INSTRUCTION -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Basic Instructions</h3>
+            <ul class="content-list">
+              <li>오직 이 페이지만 참고해야 합니다. 소문은 믿지 마세요.</li>
+              <li>파일 제출 전에 이 문서가 변경될 수도 있으니 주의하세요!</li>
+              <li>모든 과제물을 제출할 때는 제출 절차를 따라야 합니다.</li>
+              <li>
+                제출하신 과제물은 동료들끼리 서로 확인하고 평가하게 됩니다.
+              </li>
+              <li>
+                Exercise는 난이도에 따라 쉬운 문제에서 어려운 문제 순으로 짜여
+                있습니다. 앞 단계 문제의 과제물이 완벽하게 작동하지 않으면
+                난이도가 더 높은 문제는 아무리 잘 완료했다 하더라도 평가에
+                반영되지 않습니다.
+              </li>
+              <li>모든 프로젝트는 Chrome 브라우저 기반으로 평가됩니다.</li>
+              <li>
+                모든 HTML 파일은
+                <a
+                  class="text-underline text-bold"
+                  href="https://validator.w3.org/"
+                  >W3 Validator</a
+                >
+                을 통과해야 합니다.
+              </li>
+              <li>
+                meta 태그의 author에는 본인의 intra ID를 기입해야만 합니다.
+              </li>
+              <li>
+                HTML 파일에는 각 view 당 하나의 style sheet link만 허용합니다.
+              </li>
+              <li>id를 사용할 때는 확실한 이유가 있어야 합니다.</li>
+              <li>
+                사용이 금지된 HTML 태그를 사용하는 것은 부정 행위로 간주됩니다.
+                부정 행위는 -42점을 받게 되며, 받은 점수는 절대 조정이
+                불가능합니다.
+              </li>
+              <li>어떠한 형태로든 JavaScript의 사용을 금지합니다.</li>
+              <li>페이지가 열리지 않으면 0점을 받게 됩니다.</li>
+              <li>
+                각 Exercise에서 정한 파일 이외의 어떠한 파일도 디렉토리에 남겨
+                두어서는 안 됩니다.
+              </li>
+              <li>
+                질문이 있으신가요? 오른쪽 동료에게 물어보세요. 아니면 왼쪽
+                동료에게 물어보세요.
+              </li>
+              <li>참고 가이드는 Google...그리고 Google 입니다.</li>
+              <li>
+                예시를 꼼꼼히 살펴보세요. Exercise에서 명시적으로 언급되지 않은
+                세부적인 사항에 대한 힌트를 얻을 수도 있습니다.
+              </li>
+              <li>다같이 한번 외쳐볼까요? "Chick to Chicken~"</li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - FOREWORD -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Foreword</h3>
+            <p class="content-para">
+              IMAX 영화 필름은 일반 영화 필름보다 10배 더 선명한 화질을
+              제공합니다. 일반 영화 스크린의 시야 범위는 54°, IMAX 영화 스크린의
+              시야 범위는 70°로 관객들은 영화에 더 몰입할 수 있지요. 얼마 전
+              개봉한 SF 영화 '듄'은 IMAX 인증 디지털 Arri LF 카메라로 촬영된 첫
+              영화로 IMAX관에서 관람해야 영화를 온전히 즐길 수 있습니다. 그래서
+              저도 내일 보러 갑니다.
+            </p>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX00 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 00 : Somewhere Over the Rainbow(GRID)
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 00</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Somewhere Over the Rainbow(GRID)
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex00/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, css/style.css, css/color.css
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">div</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>
+                grid layout을 사용해 아래와 같이 페이지에 출력하세요 (우측 하단
+                보라색 cell의 규격: 300px * 200px).
+              </li>
+              <li>
+                모든 색깔은 css/color.css에 지정한 변수를 불러 사용해야 합니다.
+              </li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day02/ex00.png"
+              alt="ex00 photo"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX01 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 01 : Functional CSS
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 01</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Functional CSS
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex01/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, css/style.css, css/color.css
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">div</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>
+                ex00의 코드를 수정하여 아래 사진과 같이 페이지에 출력하세요
+                (우측 하단 cell의 규격: 300px (min) * 300px).
+              </li>
+              <li>
+                모든 색깔은 css/color.css에 지정한 변수를 불러 사용해야 합니다.
+              </li>
+              <li>다양한 CSS functions를 사용해보세요.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day02/ex01.png"
+              alt="ex01 photo"
+            />
+            <ul class="content-list">
+              <li>화면 크기에 따라 아래와 같이 작동합니다.</li>
+            </ul>
+            <p class="content-tip">
+              <i class="material-icons-outlined">lightbulb</i>repeat(),
+              minmax(), auto-fill & auto-fit을 검색해보세요.
+            </p>
+            <video class="content-video-horiz" controls>
+              <source src="../assets/day02/ex01.mp4" type="video/mp4" />
+            </video>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX02 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 02 : 42stagram
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 02</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">42stagram</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex02/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, css/*.css, css/color.css, assets/(image files if
+                    necessary)
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">제한 없음</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>아래 영상과 사진 같이 42stagram UI를 만드세요.</li>
+              <li>영상에 주어진 viewport 규격대로 만드세요.</li>
+              <li>Responsive 하지 않아도 괜찮습니다.</li>
+              <li>폰트/이미지 사이즈가 완벽하게 같을 필요는 없습니다.</li>
+            </ul>
+            <p class="content-tip">
+              <i class="material-icons-outlined">lightbulb</i>아이콘이
+              필요하신가요?
+              <a
+                class="text-bold text-underline"
+                href="https://fonts.google.com/icons?selected=Material+Icons"
+                >구글</a
+              >이 여러분과 함께합니다.
+            </p>
+            <img
+              class="content-img"
+              src="../assets/day02/ex02.png"
+              alt="ex02 photo"
+            />
+            <video class="content-video" controls>
+              <source src="../assets/day02/ex02.mp4" type="video/mp4" />
+            </video>
+          </section>
+        </div>
+      </main>
+
+      <!-- SECTION - FOOTER -->
+      <footer class="layout-footer">
+        <p class="layout-footer-text small">
+          credit to
+          <a
+            class="text-underline"
+            href="https://github.com/bokyungkim"
+            target="”_blank”"
+            >@bokim</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/yongjulejule"
+            target="”_blank”"
+            >@yongjule</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/42ghan"
+            target="”_blank”"
+            >@ghan</a
+          >
+          from
+          <a
+            class="text-underline"
+            href="https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAjwq9mLBhB2EiwAuYdMtdmRx10PMU1_Yp3UV03erQ_PL44gR5zW3EUlOom3opX1RkW-DJaeSBoCRS8QAvD_BwE"
+            target="”_blank”"
+            >42 Seoul</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

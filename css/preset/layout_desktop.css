@@ -1,0 +1,18 @@
+body {
+  height: 100vh;
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  grid-template-rows: 60px 1fr 60px;
+  height: inherit;
+}
+
+.layout-nav {
+  grid-row: 1/4;
+}
+
+.hidden-desktop {
+  display: none;
+}

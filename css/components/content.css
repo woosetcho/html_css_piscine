@@ -1,0 +1,30 @@
+@import "content/text.css"; /* NOTE - import text styles */
+@import "content/table.css"; /* NOTE - import table styles */
+@import "content/code_block.css"; /* NOTE - import codeblock styles */
+@import "content/multimedia.css"; /* NOTE - import imgs & videos styles */
+@import "content/list.css"; /* NOTE - import list styles */
+
+.layout-content *:not(.content-head) {
+  color: var(--font_dark);
+  font-family: "NanumSquare";
+}
+
+.content-section .material-icons-outlined {
+  color: var(--font_dark);
+  font: 1.2em/100% "Material Icons Outlined";
+  vertical-align: middle;
+}
+
+.content-section .material-icons {
+  font: 1.2em/100% "Material Icons";
+  vertical-align: middle;
+}
+
+/* SECTION - CONTENT SIZES */
+
+.horiz-divider {
+  border: none;
+  background: var(--hor_line);
+  height: 1px;
+  margin: 30px 0;
+}

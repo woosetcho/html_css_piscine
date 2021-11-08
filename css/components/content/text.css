@@ -1,0 +1,34 @@
+.content-head,
+.content-subhead,
+.content-subhead-two,
+.content-subhead-three,
+.content-welcome,
+.content-para {
+  line-height: 1.3em;
+}
+
+.content-subhead {
+  padding: 30px 0 10px;
+}
+
+.content-subhead-two,
+.content-subhead-three {
+  padding: 10px 0;
+}
+
+.content-para {
+  padding: 10px 0;
+}
+
+.content-tip .material-icons-outlined {
+  padding: 0 0.35em;
+}
+
+.content-tip {
+  background: var(--tip_bg);
+  line-height: 2.5em;
+  margin: 10px 0;
+  max-width: 600px;
+  vertical-align: middle;
+  width: 100%;
+}

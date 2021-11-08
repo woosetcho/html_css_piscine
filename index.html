@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="bokim, yongjule, ghan" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="assets/chick_icon.png" rel="short icon" type="image/png" />
+    <title>HTML & CSS PISCINE | ABOUT</title>
+    <meta name="description" content="42 HTML & CSS Piscine Homepage" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="css/home_desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Rounded"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <!-- SECTION - DESKTOP NAV BAR -->
+      <nav class="layout-nav hidden-mobile">
+        <a href="index.html"
+          ><img
+            src="assets/42_logo_nav.svg"
+            class="layout-nav-logo"
+            alt="42 logo"
+        /></a>
+        <ul class="layout-nav-items">
+          <li class="nav-items-icon">
+            <a href="index.html"
+              ><i class="material-icons md-nav-hovered">home</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <label for="subnav" class="nav-subnav-label">
+              <i class="material-icons-outlined md-nav-icon">hub</i>
+            </label>
+            <input type="checkbox" id="subnav" />
+            <ul class="subnav-toggle">
+              <li class="subnav-toggle-title text-bold"><h3>PROJECTS</h3></li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day00.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY00</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day01.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY01</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day02.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY02</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day03.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY03</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day04.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY04</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/day05.html"
+                  ><i class="material-icons md-subnav-icon">egg</i
+                  >&nbsp;DAY05</a
+                >
+              </li>
+              <li class="subnav-toggle-subject">
+                <a href="pages/rush.html"
+                  ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+                >
+              </li>
+            </ul>
+          </li>
+          <li class="nav-items-icon">
+            <a href="pages/guideline.html"
+              ><i class="material-icons-outlined md-nav-icon">explore</i></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SECTION - HEADER -->
+      <header class="layout-header">
+        <a href="index.html">
+          <img
+            class="header-logo hidden-desktop"
+            src="assets/42_logo_nav.svg"
+            alt="42 logo"
+          />
+        </a>
+        <!-- SECTION - MOBILE NAV HIDDEN ON DESKTOP -->
+        <label for="mobile-nav" class="header-nav-label hidden-desktop">
+          <i class="material-icons menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul class="header-mobile-nav-toggle hidden-desktop">
+          <li class="mobile-nav-page large text-bold">
+            <a href="index.html">About</a>
+          </li>
+          <li class="mobile-nav-page large text-bold">Project</li>
+          <ul class="mobile-nav-page-projects">
+            <li class="page-projects">
+              <a href="pages/day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="pages/rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+          <li class="mobile-nav-page large text-bold">
+            <a href="pages/guideline.html">Guideline</a>
+          </li>
+        </ul>
+        <div class="header-empty hidden-desktop"></div>
+        <a href="index.html">
+          <div class="header-content">
+            <h2 class="header-content-title">HTML & CSS Piscine</h2>
+            <img
+              class="header-content-img hidden-mobile"
+              src="assets/header_chick.jpg"
+              alt="chick photo"
+            />
+          </div>
+        </a>
+      </header>
+
+      <main class="layout-content">
+        <div class="content-frame">
+          <!-- SECTION - ABOUT -->
+          <h2 class="content-head xxxlarge text-bold">About</h2>
+          <img
+            class="content-logo"
+            alt="html_css_logo"
+            src="assets/html_css_logo.png"
+          />
+          <h3 class="content-welcome xlarge text-bold">
+            42 HTML & CSS Piscine에 오신 여러분을 환영합니다 🐣
+          </h3>
+          <p class="content-para large">
+            HTML & CSS Piscine은 7일 동안 동료들과 함께 토이 프로젝트들을
+            수행하며 웹페이지의 뼈대를 이루는 HTML & CSS 기술을 익히는
+            프로젝트입니다.
+          </p>
+          <p class="content-para large">
+            여러분은 아래의 기법들을 직접 사용해보며 다양한 디자인의
+            웹페이지들을 구현할 것 입니다.
+          </p>
+          <ul class="content-list large">
+            <li>HTML tags & semantics</li>
+            <li>CSS syntax</li>
+            <li>CSS Layout (block, flexbox, grid, etc.)</li>
+            <li>CSS decoration</li>
+            <li>CSS animation</li>
+            <li>Responsive web design</li>
+          </ul>
+          <p class="content-para large">
+            Piscine 에서 살아남을 수 있는 방법은 단 하나 뿐이죠. 모르는게
+            있으신가요? 양 옆에 있는 동료에게 물어보세요. 양 옆에 있는 동료도
+            모른다면 세명이 함께 다른 동료를 찾아가 질문하세요. Google 이
+            여러분과 함께합니다.
+          </p>
+          <p class="content-para large">
+            HTML & CSS 피신에서는 clean coding을 위해 최소한의
+            <a
+              class="text-underline text-bold"
+              href="pages/guideline.html"
+              target="_blank"
+              >지침</a
+            >을 제공합니다. 과제 수행 시 지침을 꼭 지켜주세요.
+          </p>
+          <p class="content-para large">
+            자 그럼 떨리는 마음으로 다 같이 외쳐볼까요?
+          </p>
+          <p class="content-para large">
+            "병아리가 닭이 되는 그날까지! 초보가 초고수가 되는 그날까지! Chick
+            to Chicken~ 🐣 <a href="https://www.kfckorea.com/">🐓</a>"
+          </p>
+        </div>
+      </main>
+
+      <!-- SECTION - FOOTER -->
+      <footer class="layout-footer">
+        <p class="layout-footer-text small">
+          credit to
+          <a
+            class="text-underline"
+            href="https://github.com/bokyungkim"
+            target="”_blank”"
+            >@bokim</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/yongjulejule"
+            target="”_blank”"
+            >@yongjule</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/42ghan"
+            target="”_blank”"
+            >@ghan</a
+          >
+          from
+          <a
+            class="text-underline"
+            href="https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAjwq9mLBhB2EiwAuYdMtdmRx10PMU1_Yp3UV03erQ_PL44gR5zW3EUlOom3opX1RkW-DJaeSBoCRS8QAvD_BwE"
+            target="”_blank”"
+            >42 Seoul</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

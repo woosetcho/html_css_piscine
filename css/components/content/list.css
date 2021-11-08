@@ -1,0 +1,16 @@
+.content-list {
+  list-style: unset;
+  line-height: 1.5em;
+  padding: 10px 30px;
+}
+
+.content-list .material-icons {
+  font: 1em/100% "material icons";
+  vertical-align: middle;
+}
+
+.content-list-sub-list {
+  list-style: circle;
+  line-height: 1.5em;
+  padding: 10px 30px;
+}

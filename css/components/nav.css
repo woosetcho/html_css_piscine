@@ -1,0 +1,104 @@
+/* SECTION : Mertial Icons */
+
+.material-icons.md-nav-icon,
+.material-icons-outlined.md-nav-icon {
+  color: var(--nav_icon_color);
+  font-size: 25px;
+}
+
+.material-icons.md-nav-hovered,
+.material-icons-outlined.md-nav-hovered {
+  color: var(--nav_icon_hover);
+  font-size: 25px;
+}
+
+.material-icons.md-subnav-icon {
+  font-size: 16px;
+  transform: translateY(2px);
+}
+
+.material-icons.md-nav-icon:hover {
+  color: var(--nav_icon_hover);
+}
+
+.material-icons-outlined.md-nav-icon:hover {
+  color: var(--nav_icon_hover);
+  cursor: pointer;
+}
+
+/* SECTION : nav bar layout */
+
+.layout-nav {
+  background: var(--nav_color);
+}
+
+.layout-nav-logo {
+  height: 30px;
+  padding: 15px 18.64px;
+  width: 42.72px;
+}
+
+.layout-nav-items {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-evenly;
+  margin: 0px 27.5px;
+  position: sticky;
+  top: 60px;
+}
+
+.nav-items-icon {
+  margin: 17.5px 0px;
+}
+
+.subnav-toggle {
+  background: var(--sub_nav_color);
+  color: var(--sub_nav_font_color);
+  height: calc(100%);
+  left: 80px;
+  list-style: none;
+  position: fixed;
+  top: 0px;
+  width: 160px;
+}
+
+.subnav-toggle,
+#subnav {
+  display: none;
+}
+
+#subnav:checked ~ .subnav-toggle {
+  color: var(--nav_icon_hover);
+  display: flex;
+  flex-direction: column;
+  padding: 80px 30px 20px 30px;
+}
+
+.subnav-toggle-title {
+  color: var(--sub_nav_font_hover);
+  padding: 0 0 15px 3px;
+}
+
+.subnav-toggle-subject {
+  color: var(--sub_nav_font_color);
+  line-height: 34.82px;
+}
+
+.subnav-toggle-subject:hover {
+  color: var(--sub_nav_font_hover);
+}
+
+.material-icons.md-subnav-icon:hover {
+  animation: vib 0.5s infinite alternate;
+}
+
+@keyframes vib {
+  66% {
+    transform: rotate(20deg);
+  }
+  33% {
+    transform: rotate(-20deg);
+  }
+}

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="bokim, yongjule, ghan" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="../assets/chick_icon.png" rel="short icon" type="image/png" />
+    <title>HTML & CSS PISCINE | RUSH</title>
+    <meta name="description" content="42 HTML & CSS Piscine Rush Subject" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="../css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="../css/project_desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <!-- SECTION - DESKTOP NAV BAR -->
+      <nav class="layout-nav hidden-mobile">
+        <a href="../index.html"
+          ><img
+            src="../assets/42_logo_nav.svg"
+            class="layout-nav-logo"
+            alt="42 logo"
+        /></a>
+        <ul class="layout-nav-items">
+          <li class="nav-items-icon">
+            <a href="../index.html"
+              ><i class="material-icons md-nav-icon">home</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="#"
+              ><i class="material-icons-outlined md-nav-hovered">hub</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="guideline.html"
+              ><i class="material-icons-outlined md-nav-icon">explore</i></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SECTION - PROJECTS SUBNAV -->
+      <div class="layout-subnav hidden-mobile">
+        <div class="subnav-content">
+          <ul class="content-fixed-item">
+            <li class="fixed-title text-bold"><h3>PROJECTS</h3></li>
+            <li class="fixed-subject">
+              <a href="day00.html">
+                <i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="fixed-subject fixed-subject-active">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SECTION - HEADER -->
+      <header class="layout-header">
+        <a href="../index.html">
+          <img
+            class="header-logo hidden-desktop"
+            src="../assets/42_logo_nav.svg"
+            alt="42 logo"
+          />
+        </a>
+        <!-- SECTION - MOBILE NAV HIDDEN ON DESKTOP -->
+        <label for="mobile-nav" class="header-nav-label hidden-desktop">
+          <i class="material-icons menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul class="header-mobile-nav-toggle hidden-desktop">
+          <li class="mobile-nav-page large text-bold">
+            <a href="../index.html">About</a>
+          </li>
+          <li class="mobile-nav-page large text-bold">Project</li>
+          <ul class="mobile-nav-page-projects">
+            <li class="page-projects">
+              <a href="day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+          <li class="mobile-nav-page large text-bold">
+            <a href="guideline.html">Guideline</a>
+          </li>
+        </ul>
+        <div class="header-empty hidden-desktop"></div>
+        <a href="../index.html">
+          <div class="header-content">
+            <h2 class="header-content-title">HTML & CSS Piscine</h2>
+            <img
+              class="header-content-img hidden-mobile"
+              src="../assets/header_chick.jpg"
+              alt="chick photo"
+            />
+          </div>
+        </a>
+      </header>
+
+      <main class="layout-content">
+        <div class="content-frame">
+          <h2 class="content-head xxxlarge text-bold">RUSH</h2>
+
+          <!-- SECTION - BASIC INSTRUCTION -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Basic Instructions</h3>
+            <ul class="content-list">
+              <li>오직 이 페이지만 참고해야 합니다. 소문은 믿지 마세요.</li>
+              <li>파일 제출 전에 이 문서가 변경될 수도 있으니 주의하세요!</li>
+              <li>모든 과제물을 제출할 때는 제출 절차를 따라야 합니다.</li>
+              <li>
+                제출하신 과제물은 동료들끼리 서로 확인하고 평가하게 됩니다.
+              </li>
+              <li>
+                Exercise는 난이도에 따라 쉬운 문제에서 어려운 문제 순으로 짜여
+                있습니다. 앞 단계 문제의 과제물이 완벽하게 작동하지 않으면
+                난이도가 더 높은 문제는 아무리 잘 완료했다 하더라도 평가에
+                반영되지 않습니다.
+              </li>
+              <li>모든 프로젝트는 Chrome 브라우저 기반으로 평가됩니다.</li>
+              <li>
+                모든 HTML 파일은
+                <a
+                  class="text-underline text-bold"
+                  href="https://validator.w3.org/"
+                  >W3 Validator</a
+                >
+                을 통과해야 합니다.
+              </li>
+              <li>
+                meta 태그의 author에는 본인의 intra ID를 기입해야만 합니다.
+              </li>
+              <li>
+                HTML 파일에는 각 view 당 하나의 style sheet link만 허용합니다.
+              </li>
+              <li>id를 사용할 때는 확실한 이유가 있어야 합니다.</li>
+              <li>
+                사용이 금지된 HTML 태그를 사용하는 것은 부정 행위로 간주됩니다.
+                부정 행위는 -42점을 받게 되며, 받은 점수는 절대 조정이
+                불가능합니다.
+              </li>
+              <li>어떠한 형태로든 JavaScript의 사용을 금지합니다.</li>
+              <li>페이지가 열리지 않으면 0점을 받게 됩니다.</li>
+              <li>
+                각 Exercise에서 정한 파일 이외의 어떠한 파일도 디렉토리에 남겨
+                두어서는 안 됩니다.
+              </li>
+              <li>
+                질문이 있으신가요? 오른쪽 동료에게 물어보세요. 아니면 왼쪽
+                동료에게 물어보세요.
+              </li>
+              <li>참고 가이드는 Google...그리고 Google 입니다.</li>
+              <li>
+                예시를 꼼꼼히 살펴보세요. Exercise에서 명시적으로 언급되지 않은
+                세부적인 사항에 대한 힌트를 얻을 수도 있습니다.
+              </li>
+              <li>다같이 한번 외쳐볼까요? "Chick to Chicken~"</li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - FOREWORD -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Foreword</h3>
+            <p class="content-para">
+              개포동의 가을은 아름답죠. 맛있게 점심을 먹은 후 클러스터 옆에 있는
+              개포근린공원을 산책해보세요. 초록초록한 나무를 보며 블루 라이트에
+              지친 눈에게, 양재천의 물흐르는 소리를 들으며 키보드 소리에 지친
+              귀에 휴식을 선사하세요. 굳은 어깨도 스트레칭으로 풀어주세요.
+              건강은 소중하니까요.
+            </p>
+            <img
+              class="content-img img-margin"
+              src="../assets/rush/gaepo.jpg"
+              alt="gaepo park"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - TODAY'S RULE -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Today's Rule</h3>
+            <ul class="content-list">
+              <li>Rush 프로젝트는 2인 1조 그룹 프로젝트입니다.</li>
+              <li>
+                협업은 여러분의 책임입니다. 전화를 하든, 이메일을 보내든, 슬랙
+                DM을 보내든, 비둘기를 보내든, 텔레파시를 사용해서라도 연락을
+                취하세요. Life isn’t always fair, that’s just the way it is.
+              </li>
+              <li>
+                Rush에서도
+                <span class="text-bold">동일한 Coding Standard</span>가
+                적용됩니다.
+              </li>
+              <li>Subject에서 요구하는 사항만(!) 구현하세요.</li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX00 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Subject : You are now 🐓 !
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Subject</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    You are now 🐓 !
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex00/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, css/*.css, assets/(image files if necessary)
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">제한 없음</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>
+                인트라
+                <a
+                  class="text-bold text-underline"
+                  href="https://profile.intra.42.fr/"
+                  >메인 페이지</a
+                >와
+                <a
+                  class="text-bold text-underline"
+                  href="https://projects.intra.42.fr/"
+                  >프로젝트 페이지</a
+                >를 완성하세요.
+              </li>
+              <li>
+                너비 992px 이하일 때는 아래와 같은 mobile view를 구현하세요.
+              </li>
+            </ul>
+            <video class="content-video-horiz" controls>
+              <source src="../assets/rush/rush_01.mp4" type="video/mp4" />
+            </video>
+            <ul class="content-list">
+              <li>
+                너비 993px 이상일 때는 아래와 같은 desktop view를 구현하세요.
+              </li>
+            </ul>
+            <video class="content-video-horiz" controls>
+              <source src="../assets/rush/rush_02.mp4" type="video/mp4" />
+            </video>
+            <ul class="content-list">
+              <li>
+                mobile view에서 navigation bar는 기존 화면을 덮어쓰게
+                구현하세요.
+              </li>
+              <li>
+                인트라 우측 상단 broadcast toggle(확성기 아이콘)은 구현하지
+                마세요.
+              </li>
+              <li>인트라 우측 상단 프로필 toggle은 checkbox로 구현하세요.</li>
+              <li>
+                홈페이지 박스 중 'LOGTIME'과 'SKILLS'의 내용은 본인 인트라에서
+                캡처한 이미지를 사용하세요.
+              </li>
+              <li>
+                'AGENDA'에는 최소 4개의 event가 있어야 합니다. 아래 영상의
+                내용을 사용해도 괜찮습니다. filters toggle은 구현하지 마세요.
+              </li>
+            </ul>
+            <video class="content-video-horiz" controls>
+              <source src="../assets/rush/event.mp4" type="video/mp4" />
+            </video>
+            <ul class="content-list">
+              <li>'EVALUATION'은 아래 영상과 같이 비워두세요.</li>
+            </ul>
+            <video class="content-video-horiz" controls>
+              <source src="../assets/rush/eval.mp4" type="video/mp4" />
+            </video>
+            <ul class="content-list">
+              <li>
+                'EXPERTISES'에는 최소 3개의 skill이 있어야 합니다. 각 skill의
+                아이콘 색상은 달라도 됩니다.
+              </li>
+              <li>
+                'PROJECTS'에는 본인의 인트라 페이지에 등록된 과제를 넣으세요.
+              </li>
+              <li>'LAST ACHIEVEMENTS'에는 본인의 업적 최소 3개를 넣으세요.</li>
+              <li>
+                프로젝트 페이지에서 'Open teams' 아이템은 최소 3개, 'Some
+                recommended projects' 아이템은 최소 2개를 넣으세요. 과제명은
+                영상과 달라도 됩니다.
+              </li>
+              <li>
+                인트라 페이지의 모든 hyperlink는 실제 인트라의 해당 url로
+                연결되어 있어야합니다.
+              </li>
+              <li>폰트와 아이콘은 완전히 같지 않아도 됩니다.</li>
+              <li>hover/click 시 변화가 있다면 전부 구현하세요.</li>
+              <li>당연히 반응형이어야겠죠?</li>
+            </ul>
+            <p class="content-tip">
+              <i class="material-icons-outlined">lightbulb</i>component별로
+              분업한다면 도움이 될지도 모릅니다.
+            </p>
+          </section>
+        </div>
+      </main>
+
+      <!-- SECTION - FOOTER -->
+      <footer class="layout-footer">
+        <p class="layout-footer-text small">
+          credit to
+          <a
+            class="text-underline"
+            href="https://github.com/bokyungkim"
+            target="”_blank”"
+            >@bokim</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/yongjulejule"
+            target="”_blank”"
+            >@yongjule</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/42ghan"
+            target="”_blank”"
+            >@ghan</a
+          >
+          from
+          <a
+            class="text-underline"
+            href="https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAjwq9mLBhB2EiwAuYdMtdmRx10PMU1_Yp3UV03erQ_PL44gR5zW3EUlOom3opX1RkW-DJaeSBoCRS8QAvD_BwE"
+            target="”_blank”"
+            >42 Seoul</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>

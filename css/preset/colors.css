@@ -1,0 +1,24 @@
+:root {
+  --nav_color: #2e313b;
+  --nav_icon_color: #5e6373;
+  --nav_icon_hover: #dbdadd;
+  --nav_font_color: #585d6c;
+  --sub_nav_color: #24262e;
+  --sub_nav_font_color: #666e80;
+  --sub_nav_font_hover: #f2f2f2;
+  --main_footer_bg_color: #fafafa;
+  --footer_font: #777;
+  --home_font_color: #25252b;
+  --font_dark: #2c2c34;
+  --font_gray: #67676c;
+  --white: #fff;
+  --black: #000;
+  --mint: #68b8ba;
+  --fail_red: #be636e;
+  --pass_green: #95c478;
+  --code_block: #ededeb;
+  --code_font: #d96762;
+  --hor_line: #dfe1e4;
+  --menu_icon: #4f5565;
+  --tip_bg: #fffee2;
+}

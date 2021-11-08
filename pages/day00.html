@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="bokim, yongjule, ghan" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link href="../assets/chick_icon.png" rel="short icon" type="image/png" />
+    <title>HTML & CSS PISCINE | DAY00</title>
+    <meta name="description" content="42 HTML & CSS Piscine Day00 Subject" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="../css/mobile.css"
+    />
+    <link
+      rel="stylesheet"
+      media="screen and (min-width: 769px)"
+      href="../css/project_desktop.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+  </head>
+
+  <body>
+    <div class="layout">
+      <!-- SECTION - DESKTOP NAV BAR -->
+      <nav class="layout-nav hidden-mobile">
+        <a href="../index.html"
+          ><img
+            src="../assets/42_logo_nav.svg"
+            class="layout-nav-logo"
+            alt="42 logo"
+        /></a>
+        <ul class="layout-nav-items">
+          <li class="nav-items-icon">
+            <a href="../index.html"
+              ><i class="material-icons md-nav-icon">home</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="#"
+              ><i class="material-icons-outlined md-nav-hovered">hub</i></a
+            >
+          </li>
+          <li class="nav-items-icon">
+            <a href="guideline.html"
+              ><i class="material-icons-outlined md-nav-icon">explore</i></a
+            >
+          </li>
+        </ul>
+      </nav>
+
+      <!-- SECTION - PROJECTS SUBNAV -->
+      <div class="layout-subnav hidden-mobile">
+        <div class="subnav-content">
+          <ul class="content-fixed-item">
+            <li class="fixed-title text-bold"><h3>PROJECTS</h3></li>
+            <li class="fixed-subject fixed-subject-active">
+              <a href="day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="fixed-subject">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- SECTION - HEADER -->
+      <header class="layout-header">
+        <a href="../index.html">
+          <img
+            class="header-logo hidden-desktop"
+            src="../assets/42_logo_nav.svg"
+            alt="42 logo"
+          />
+        </a>
+        <!-- SECTION - MOBILE NAV HIDDEN ON DESKTOP -->
+        <label for="mobile-nav" class="header-nav-label hidden-desktop">
+          <i class="material-icons menu-icon">menu</i>
+        </label>
+        <input
+          type="checkbox"
+          id="mobile-nav"
+          class="hidden-desktop hidden-mobile"
+        />
+        <ul class="header-mobile-nav-toggle hidden-desktop">
+          <li class="mobile-nav-page large text-bold">
+            <a href="../index.html">About</a>
+          </li>
+          <li class="mobile-nav-page large text-bold">Project</li>
+          <ul class="mobile-nav-page-projects">
+            <li class="page-projects">
+              <a href="day00.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY00</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day01.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY01</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day02.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY02</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day03.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY03</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day04.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY04</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="day05.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;DAY05</a
+              >
+            </li>
+            <li class="page-projects">
+              <a href="rush.html"
+                ><i class="material-icons md-subnav-icon">egg</i>&nbsp;RUSH</a
+              >
+            </li>
+          </ul>
+          <li class="mobile-nav-page large text-bold">
+            <a href="guideline.html">Guideline</a>
+          </li>
+        </ul>
+        <div class="header-empty hidden-desktop"></div>
+        <a href="../index.html">
+          <div class="header-content">
+            <h2 class="header-content-title">HTML & CSS Piscine</h2>
+            <img
+              class="header-content-img hidden-mobile"
+              src="../assets/header_chick.jpg"
+              alt="chick photo"
+            />
+          </div>
+        </a>
+      </header>
+
+      <main class="layout-content">
+        <div class="content-frame">
+          <h2 class="content-head xxxlarge text-bold">DAY00</h2>
+
+          <!-- SECTION - BASIC INSTRUCTION -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Basic Instructions</h3>
+            <ul class="content-list">
+              <li>오직 이 페이지만 참고해야 합니다. 소문은 믿지 마세요.</li>
+              <li>파일 제출 전에 이 문서가 변경될 수도 있으니 주의하세요!</li>
+              <li>모든 과제물을 제출할 때는 제출 절차를 따라야 합니다.</li>
+              <li>
+                제출하신 과제물은 동료들끼리 서로 확인하고 평가하게 됩니다.
+              </li>
+              <li>
+                Exercise는 난이도에 따라 쉬운 문제에서 어려운 문제 순으로 짜여
+                있습니다. 앞 단계 문제의 과제물이 완벽하게 작동하지 않으면
+                난이도가 더 높은 문제는 아무리 잘 완료했다 하더라도 평가에
+                반영되지 않습니다.
+              </li>
+              <li>모든 프로젝트는 Chrome 브라우저 기반으로 평가됩니다.</li>
+              <li>
+                모든 HTML 파일은
+                <a
+                  class="text-underline text-bold"
+                  href="https://validator.w3.org/"
+                  >W3 Validator</a
+                >
+                을 통과해야 합니다.
+              </li>
+              <li>
+                meta 태그의 author에는 본인의 intra ID를 기입해야만 합니다.
+              </li>
+              <li>
+                HTML 파일에는 각 view 당 하나의 style sheet link만 허용합니다.
+              </li>
+              <li>id를 사용할 때는 확실한 이유가 있어야 합니다.</li>
+              <li>
+                사용이 금지된 HTML 태그를 사용하는 것은 부정 행위로 간주됩니다.
+                부정 행위는 -42점을 받게 되며, 받은 점수는 절대 조정이
+                불가능합니다.
+              </li>
+              <li>어떠한 형태로든 JavaScript의 사용을 금지합니다.</li>
+              <li>페이지가 열리지 않으면 0점을 받게 됩니다.</li>
+              <li>
+                각 Exercise에서 정한 파일 이외의 어떠한 파일도 디렉토리에 남겨
+                두어서는 안 됩니다.
+              </li>
+              <li>
+                질문이 있으신가요? 오른쪽 동료에게 물어보세요. 아니면 왼쪽
+                동료에게 물어보세요.
+              </li>
+              <li>참고 가이드는 Google...그리고 Google 입니다.</li>
+              <li>
+                예시를 꼼꼼히 살펴보세요. Exercise에서 명시적으로 언급되지 않은
+                세부적인 사항에 대한 힌트를 얻을 수도 있습니다.
+              </li>
+              <li>다같이 한번 외쳐볼까요? "Chick to Chicken~"</li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - FOREWORD -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Foreword</h3>
+            <p class="content-para">
+              등촌 칼국수 참 맛있죠. 지금 이 subject를 작성하고 있는 우리도
+              든든하게 먹었습니다. 등촌에서 미나리와 버섯이 무한리필이라는 점
+              알고 계셨나요? 웅~치킨 🍗 우리는 치킨 이미지를
+              <a class="text-underline text-bold" href="https://pixabay.com/ko/"
+                >여기</a
+              >에서 찾곤 합니다.
+            </p>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - TODAY'S RULE -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">Today's Rule</h3>
+            <ul class="content-list">
+              <li>
+                Exercise에 명시되어 있지 않다면 모든 style 사용을 금지합니다.
+              </li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX00 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 00 : Hello World!
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 00</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Hello World!
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex00/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">index.html</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">NONE</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>"Hello World!"를 페이지에 출력하세요.</li>
+            </ul>
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX01 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 01 : Hellooooooo Worldddddddd!!!
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 01</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Hellooooooo Worldddddddd!!!
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex01/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">index.html</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    span, h1, h2, h3, h4, h5, h6
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>아래와 같이 페이지에 출력하세요.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day00/ex01.png"
+              alt="ex01 example photo"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX02 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 02 : Chick-to-Chicken
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 02</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Chick-to-Chicken
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex02/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, image files if necessary
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">span, p, img</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>아래와 같이 페이지에 출력하세요.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day00/ex02.png"
+              alt="ex02 example photo"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX03 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 03 : Let me introduce myself...
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 03</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Let me introduce myself...
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex03/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">index.html</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    a, form, div, label, span, input, textarea
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>이 웹사이트는 한국어로 되어있습니다.</li>
+              <li>이 웹사이트의 제목은 "My First Website" 입니다.</li>
+              <li>
+                42 intra 글자를 클릭하면 새 창에서 https://intra.42.fr 이
+                열립니다.
+              </li>
+              <li>
+                Write your MBTI에는 원래 텍스트를 입력할 수 있지만 막아둡시다.
+              </li>
+              <li>Reset 클릭 시 입력한 정보가 초기화 됩니다.</li>
+              <li>Send 클릭 시 입력한 정보가 제출됩니다.</li>
+              <li>아래와 같이 페이지에 출력하세요.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day00/ex03.png"
+              alt="ex03 example photo"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX04 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 04 : Welcome to 42
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 04</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Welcome to 42
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex04/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">index.html</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    h2, table, thead, th, tbody, td, tfoot, ol, li, ul
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>Inline style을 사용하세요.</li>
+              <li>아래와 같이 페이지에 출력하세요.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day00/ex04.png"
+              alt="ex04 example photo"
+            />
+          </section>
+
+          <hr class="horiz-divider" />
+
+          <!-- SECTION - EX05 -->
+          <section class="content-section">
+            <h3 class="content-subhead xlarge text-bold">
+              Exercise 05 : Beautiful Star
+            </h3>
+            <table class="content-table">
+              <thead class="content-table-thead text-bold">
+                <tr class="content-table-tr">
+                  <th colspan="3">Exercise 05</th>
+                </tr>
+              </thead>
+              <tbody class="content-table-tbody">
+                <tr class="content-table-tr content-table-ex-name">
+                  <td colspan="3" class="content-table-td-name">
+                    Beautiful Star
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 디렉토리</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">ex05/</td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">제출 파일</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">
+                    index.html, image files if necessary
+                  </td>
+                </tr>
+                <tr class="content-table-tr">
+                  <td class="content-table-td">허용 태그</td>
+                  <td class="content-table-td-colon">:</td>
+                  <td class="content-table-td-data">img, map, area</td>
+                </tr>
+              </tbody>
+            </table>
+            <ul class="content-list">
+              <li>
+                별의 다섯 꼭짓점을 클릭하면 다른 페이지로 이동하는 페이지를
+                만드세요.
+              </li>
+              <li>이때, 각각의 페이지는 ex00 ~ ex04의 index.html 입니다.</li>
+            </ul>
+            <img
+              class="content-img"
+              src="../assets/day00/ex05.png"
+              alt="ex05 example photo"
+            />
+          </section>
+        </div>
+      </main>
+
+      <!-- SECTION - FOOTER -->
+      <footer class="layout-footer">
+        <p class="layout-footer-text small">
+          credit to
+          <a
+            class="text-underline"
+            href="https://github.com/bokyungkim"
+            target="”_blank”"
+            >@bokim</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/yongjulejule"
+            target="”_blank”"
+            >@yongjule</a
+          >,
+          <a
+            class="text-underline"
+            href="https://github.com/42ghan"
+            target="”_blank”"
+            >@ghan</a
+          >
+          from
+          <a
+            class="text-underline"
+            href="https://42seoul.kr/seoul42/contents/view?contentsNo=13&level=2&menuNo=28&gclid=CjwKCAjwq9mLBhB2EiwAuYdMtdmRx10PMU1_Yp3UV03erQ_PL44gR5zW3EUlOom3opX1RkW-DJaeSBoCRS8QAvD_BwE"
+            target="”_blank”"
+            >42 Seoul</a
+          >
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
